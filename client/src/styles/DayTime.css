@@ -1,0 +1,19 @@
+.Time {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background: #d52e3f;
+    font-family: "Helvetica";
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fcedd8;
+    text-shadow:
+        5px 5px 0px #eb452b,
+        7px 7px 0px #efa032;
+}
