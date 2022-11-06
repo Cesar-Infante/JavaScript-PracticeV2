@@ -4,13 +4,13 @@ import React from "react";
       the contents of the current window.
 */
 
-const printContent = () => {
-    return (
-        <div>
-            <p>Print the contents of this page</p>
-            <button> </button>
-        </div>
-    );
+const PrintContent = () => {
+  return (
+    <div>
+      <p>Print the contents of this page</p>
+      <button onClick={window.print}>Hello World</button>
+    </div>
+  );
 };
 
-export default printContent;
+export default PrintContent;

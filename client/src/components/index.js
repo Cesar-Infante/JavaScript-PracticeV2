@@ -1,4 +1,4 @@
 import DayTime from "./DayTime";
-import printContent from "./printContent"
+import PrintContent from "./PrintContent"
 
-export { DayTime, printContent };
+export { DayTime, PrintContent };

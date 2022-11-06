@@ -1,13 +1,14 @@
 import react from "react";
-import logo from './logo.svg';
+
 import './App.css';
-import { DayTime } from './components'
+import { DayTime, PrintContent } from './components'
 
 
 function App() {
   return (
     <div>
       <DayTime />
+      <PrintContent />
     </div>
   );
 }
