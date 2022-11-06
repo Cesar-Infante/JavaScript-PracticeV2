@@ -11,6 +11,6 @@ function App() {
       <PrintContent />
     </div>
   );
-}
+};
 
 export default App;

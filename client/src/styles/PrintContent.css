@@ -1,0 +1,28 @@
+.print {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 50%; */
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    color: rgb(43, 43, 43);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.printBtn {
+    width: 20%;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: thistle;
+    color: rgb(43, 43, 43);
+    font-weight: 700;
+    font: ;
+}

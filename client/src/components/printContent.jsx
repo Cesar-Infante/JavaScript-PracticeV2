@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/PrintContent.css"
 
 /* 2. Write a JavaScript program to print
       the contents of the current window.
@@ -6,9 +7,9 @@ import React from "react";
 
 const PrintContent = () => {
   return (
-    <div>
+    <div className="print">
       <p>Print the contents of this page</p>
-      <button onClick={window.print}>Hello World</button>
+      <button className="printBtn" onClick={window.print}>PRINT</button>
     </div>
   );
 };
