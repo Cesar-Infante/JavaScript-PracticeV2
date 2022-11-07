@@ -1,7 +1,7 @@
 import react from "react";
 
 import './App.css';
-import { DayTime, PrintContent } from './components'
+import { DayTime, PrintContent, DOMchange } from './components'
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div>
       <DayTime />
       <PrintContent />
+      <DOMchange />
     </div>
   );
 };
