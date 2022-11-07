@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useState } from "react";
+import "../styles/DOMchange.css";
 
 function DOMchange() {
+  const [isSimple, setIsSimple] = useState(true);
   return (
     <div>
-      <p id="text">
+      <p className={isSimple ? "newColor" : "leaveSimple"}>
         JavaScript Exercises - modify the style of the paragraph text through
         javascript code.
       </p>
       <div>
-        <button id="jsstyle" onclick="js_style()">
+        <button onClick={() => setIsSimple(!isSimple)} className="DOMBtn">
           Style
         </button>
       </div>
@@ -16,4 +18,4 @@ function DOMchange() {
   );
 }
 
-export default DOMchange
+export default DOMchange;
